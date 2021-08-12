@@ -1,0 +1,457 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Practicing actions",
+    "line": 1,
+    "id": "practicing-actions",
+    "tags": [],
+    "uri": "features\\actions.feature",
+    "elements": [
+      {
+        "id": "practicing-actions;actions-in-protractor",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Actions in protractor",
+        "tags": [
+          {
+            "name": "@Actions",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open heroku app",
+            "match": {
+              "location": "step-definitions\\actions.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I land on heroku app",
+            "match": {
+              "location": "step-definitions\\actions.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I drag and drop",
+            "match": {
+              "location": "step-definitions\\actions.step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5783000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step-definitions\\hook.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing Alert",
+    "line": 1,
+    "id": "testing-alert",
+    "tags": [],
+    "uri": "features\\alert.feature",
+    "elements": [
+      {
+        "id": "testing-alert;alert-validation",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Alert validation",
+        "tags": [
+          {
+            "name": "@Alert",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open guru99 website",
+            "match": {
+              "location": "step-definitions\\alert.step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I double click on a button",
+            "match": {
+              "location": "step-definitions\\alert.step.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should accept the alert",
+            "match": {
+              "location": "step-definitions\\alert.step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step-definitions\\hook.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "test auto complete",
+    "line": 1,
+    "id": "test-auto-complete",
+    "tags": [],
+    "uri": "features\\autocomplete.feature",
+    "elements": [
+      {
+        "id": "test-auto-complete;test-auto-complete",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test auto complete",
+        "tags": [
+          {
+            "name": "@Autocomplete",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I open jqury website",
+            "match": {
+              "location": "step-definitions\\autocomplete.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4694000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I switch to frame and access controls",
+            "match": {
+              "location": "step-definitions\\autocomplete.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7372000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step-definitions\\hook.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing W3 Schools",
+    "line": 1,
+    "id": "testing-w3-schools",
+    "tags": [],
+    "uri": "features\\demo.feature",
+    "elements": [
+      {
+        "id": "testing-w3-schools;launch-w3-schools",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Launch W3 schools",
+        "tags": [
+          {
+            "name": "@Demo",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I launch w3 schools website",
+            "match": {
+              "location": "step-definitions\\demo.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click learnHTML link",
+            "match": {
+              "location": "step-definitions\\demo.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should land on html learning page",
+            "match": {
+              "location": "step-definitions\\demo.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step-definitions\\hook.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Practice multiple window handlings",
+    "line": 1,
+    "id": "practice-multiple-window-handlings",
+    "tags": [],
+    "uri": "features\\windowhandling.feature",
+    "elements": [
+      {
+        "id": "practice-multiple-window-handlings;multiple-window-handling",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Multiple window handling",
+        "tags": [
+          {
+            "name": "@WindowHandling",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I launch webdriver university",
+            "match": {
+              "location": "step-definitions\\windowhandling.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I navigate to webdriver university",
+            "match": {
+              "location": "step-definitions\\windowhandling.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I click on login portal button",
+            "match": {
+              "location": "step-definitions\\windowhandling.step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I navigate to login portal",
+            "match": {
+              "location": "step-definitions\\windowhandling.step.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I switch to webdriver university window",
+            "match": {
+              "location": "step-definitions\\windowhandling.step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I navigate to webdriver university",
+            "match": {
+              "location": "step-definitions\\windowhandling.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step-definitions\\hook.steps.ts:4"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
